@@ -1,0 +1,63 @@
+DUCAT - S2
+1. Testing shows presence of Bugs: We should write as many test cases as possible.
+2. Exhaustive Testing is Impossible: WE should not test a particular test cases for all the possible test data available.
+  -Techniques to pick the right data from large set of test data available
+      -> Equivalence Partitioning
+      -> Boundary Value Analysis
+3. Early Testing Principal: Your testing starts as soon as requirement is given to you by the client
+
+
+Test Design: Identifying the attributes against which the test cases are to be written
+
+SDLC: Software Development Life Cycle
+
+- Requirement Analysis Phase => SRS
+   i) Requirement given is complete or not
+   ii)Requirement given is correct or not
+
+- Feasibility Study Phase
+- Design Phase
+- Coding/Development Phase
+- TESTING PHASE
+- Deployment Phase
+- Maintenance Phase
+
+4. Defect Clustering Principal/Pareto Principal: Defects are not evenly distributed rather than are clustered around some specific module
+                                               : 80% of defects are identified across 20% module
+
+   Register(2/20)|Login(3/20)|Product(14/20)|Payment(0/20).....
+
+======================================================JAVA=============================================
+
+command prompt --> java -version
+
+IDE: Integrated Development Environment
+
+---------------------------------------------------------
+Variables:
+
+Syntax:
+  -datatype variableName = value;
+
+  -datatype variableName;
+   variableName = value;
+
+
+Make Tea:
+ -sugar
+ -Tea Leaves
+ -Milk Powder
+
+Statements:
+ //To make decisions
+   -if Else Statement
+    if(condition)
+    {
+        This will be executed only when condition is true;
+    }
+    else
+    {
+       This will be executed only when condition is false;
+    }
+   -If-else if statement
+   -switch statement
