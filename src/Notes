@@ -60,4 +60,61 @@ Statements:
        This will be executed only when condition is false;
     }
    -If-else if statement
+   if(condition1)
+   {
+       this logic will execute only if condition1 is true;
+   }
+   else if(condition2)
+   {
+   this logic will execute only if condition2 is true;
+   }
+
+      else if(condition3)
+      {
+      this logic will execute only if condition3 is true;
+      }
+      else if(conditionN)
+      {
+       this logic will execute only if conditionN is true;
+      }
+      else
+      {
+        this logic will execute when all of the above conditions is false;
+      }
    -switch statement
+     switch(variable)
+     {
+        case variable:
+        logic;
+        break;
+
+                case variable:
+                logic;
+                break;
+
+                        case variable:
+                        logic;
+                        break;
+     }
+
+=======Loops============================
+repeating task.....we will use loops...
+0- do while loop: This loop will always execute at-least once even if condition is false
+1- while loop
+    dataType variable;
+    while(ConditionOverVariable)
+    {
+        logic;
+        I/D;
+    }
+2- for loop
+
+    for(dataType variable;ConditionOverVariable;I/D)
+    {
+        logic;
+    }
+
+3- advanced for loop
+
+===================Arrays Concepts===================================
+dataType[] arrayName = {value1,value2,value3, value4......};
